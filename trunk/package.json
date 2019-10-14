@@ -1,0 +1,25 @@
+{
+  "name": "frontend-interview",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ButterCam",
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    }
+  }
+}
